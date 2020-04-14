@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    background-color: #C58E8F;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+            /* #########
+            Calculate-tip-div
+            ######### */
+h1{
+    color: white;
+    text-align: center;
+   
+}
+.main-div{
+    text-align: center;
+    position: relative;
+}
+.calculate-tip-div{
+    background-color: #CCA0B0;
+    width: 50%;
+    text-align: center;
+    margin:0 auto;
+    padding:20px 0;
+    border-radius: 20px;
+    position: relative;
+    z-index: 10;
+    
+}
+.sub-div{
+    margin: 10px 0;
+}
+
+            /* #########
+            Styling-labels
+            ######### */
+
+.tip-labels{
+    margin: 7px 0;
+    display: inline-block;
+}
+
+            /* #########
+            Styling-inputs
+            ######### */
+
+.tip-inputs{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid white;
+    outline: none;
+    transition: border .2s;
+}
+.tip-inputs:focus{
+    border: 1px solid #0facf3;
+}
+
+            /* #########
+            Styling-buttons
+            ######### */
+
+.tip-buttons{
+    padding:7px 15px;
+    border-radius:15px;
+    outline: none;
+    background-color: #C58E8F;
+    border: 1px solid #C58E8F;
+    margin:0 5px;
+    cursor: pointer;
+}
+#button-div{
+    margin-top:20px;
+}
+.tip-buttons:hover{
+    border: 1px solid #0facf3;
+}
+select{
+    outline:none;
+    border:1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: border .2s;
+}
+select:focus{
+    border: 1px solid #0facf3;
+}
+
+#result{
+    display: none;
+}
+
+         
